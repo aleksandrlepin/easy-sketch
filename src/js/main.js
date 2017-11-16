@@ -1,7 +1,7 @@
 'use strict';
 
-function showMsg () {
-    const name = document.querySelector('.contacts__message [name="userName"]');
+function getMsg () {
+    const name = document.querySelector('.contacts__message [name="user"]');
     const mail = document.querySelector('.contacts__message [name="email"]');
     const msg = document.querySelector('.contacts__message [name="msg"]');
     return function (event) {
@@ -12,6 +12,6 @@ function showMsg () {
     }
 }
 
-const logMsg = showMsg();
+const logMsg = getMsg();
 
 window.addEventListener('submit', logMsg);
