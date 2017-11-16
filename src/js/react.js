@@ -76,9 +76,10 @@ function LevelDiv(props) {
     );
 }
 
-function Ul(props) {
+function Skills(props) {
     let listItems = [];
     for (let i = 0; i < data.length; i++) {
+        console.log(<LevelDiv />);
         listItems.push(
             <li class="skills__item">
                 <span>{data[i].name}</span>
@@ -141,7 +142,7 @@ function Main (props) {
             <Header />
             <main>
                 <About />
-                <Ul />
+                <Skills />
                 <Contacts />
             </main>
             <Footer />
