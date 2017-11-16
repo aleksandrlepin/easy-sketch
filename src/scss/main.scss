@@ -240,6 +240,10 @@ h2 {
     background-color: $light-gray;
     border-radius: 10px;
 
+    &--dark {
+        background-color: $gray;
+    }
+
     @media screen and (max-width: 420px) {
         height: 15px;
         width: 15px;
