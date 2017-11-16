@@ -314,6 +314,7 @@ h2 {
             height: 40px;
             margin-bottom: 19px;
             padding: 5px;
+            border: solid 1px $light-gray2;
             border-radius: 0;
 
             @media screen and (max-width: 1279px) {
@@ -332,8 +333,9 @@ h2 {
             display: block;
             width: 437px;
             height: 89px;
-            padding: 10px;
             margin-bottom: 27px;
+            padding: 10px;
+            border: solid 1px $light-gray2;
 
             @media screen and (max-width: 1279px) {
                 width: 33vw;
